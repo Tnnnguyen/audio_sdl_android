@@ -10,7 +10,7 @@ import java.io.File;
 import java.nio.ByteBuffer;
 
 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
-class AudioDecoderCompat extends BaseAudioDecoder {
+public class AudioDecoderCompat extends BaseAudioDecoder {
     private static final String TAG = AudioDecoderCompat.class.getSimpleName();
     private static final int DEQUEUE_TIMEOUT = 3000;
 
